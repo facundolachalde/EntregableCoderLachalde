@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+a{
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+}
+nav a:hover{
+    color: white;
+}
+/*--index--*/
+
+
+/*-------menu---------*/
+.menu{
+    padding: 0 0 30px 0 ;
+    display: grid;
+    grid-template-columns: repeat( auto-fit , minmax(350px, 1fr));
+    grid-gap:20px 40px;
+}
+.heading{
+    background-color: #cb202d;
+    color: #121212;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading > h1{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom:10px;
+}
+.heading h1{
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading >h3{
+    font-weight: 660;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+.item-menu{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.item-menu img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.item-datos{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.item-subdatos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.item-subdatos>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.precio{
+    text-align: right;
+}
+.item-datos>p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.item-datos>button{
+    background-color:#cb202d;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+/*Contacto-------- Quejas*/
+.contenido{
+    background-color: #181818;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1.5rem ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabecera{
+    text-align: center;
+    font-size: 3rem;
+}
+.contacto-wrap{
+    box-shadow: 0 0 20px 0 rgba(255,255,255, .3); 
+}
+.contacto-wrap > *{
+    padding: 1rem;
+}
+.form-contacto{
+    background: #222222;
+}
+.form-contacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.form-contacto form .block{
+    grid-column: 1 / 3;
+}
+.form-contacto form p{
+    
+    margin: 0;
+    padding: 1rem;
+}
+
+.form-contacto button,
+.form-contacto input,
+.form-contacto textarea{
+    width: 100%;
+    padding: .7rem;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #d63031;
+    color: #fff;
+}
+.form-contacto form button{
+    background: #b70e21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1rem;
+    outline: 0;
+
+}
+.form-datos{
+    background: #000;
+}
+.form-datos h4,
+.form-datos ul,
+.form-datos p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.form-datos ul{
+    list-style: none;
+    padding: 0;
+}
+.form-datos ul li{
+    padding: .3rem;
+}
+/*--nosotros*/
+/*--pedidos--*/
+
+/*--footer---*/
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont-soc, .footer-menu-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1 rem;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #121212;
+    background-image:linear-gradient(black);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;    
+    text-decoration: none;
+    color: white;
+}
+.icon:hover{
+    background-color: #121212;
+}
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
