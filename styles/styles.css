@@ -126,11 +126,13 @@ nav a:hover{
 }
 .shake{
     padding: .5rem 2rem;
-    animation: shake .50s ease-in;
     background: none;
     border: none;
     width: 20px;
     height: 20px;
+}
+.shake:hover{
+    animation: shake .50s ease-in; 
 }
 @keyframes shake{
     0%{
