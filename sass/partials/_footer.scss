@@ -4,7 +4,7 @@ footer{
     bottom: 0;
     left: 0;
     padding: 2rem 8%;
-    background-color: black;
+    background-color: $primary;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ footer{
     width: 50px;
     border-radius: 50px;
     border: 1px solid #121212;
-    background-image:linear-gradient(black);
+    background-image:linear-gradient($primary);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
