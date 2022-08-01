@@ -1,7 +1,7 @@
 header{
     display: flex;
     min-height: 70px;
-    background-color: coral;
+    background-color: map-get($map:$colorheader, $key:'coral');
     justify-content: space-between;
     align-items: center;
     padding: 10px;
