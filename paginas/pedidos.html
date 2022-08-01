@@ -22,49 +22,31 @@
             <a href="../paginas/pedidos.html" class="nav-link">Pedidos</a>
         </nav>
     </header>
-    <main class="fondo__ped">
-        <div class="mnmenu">
-            <form class="fondo__form">
-                <fieldset>
-                    <legend>Pedidos</legend>
-                    <p>Numero de telefono</p>
-                    <input type="number" placeholder="Ingresa tu Nro de contacto" id="">
-                    <br>
-                    <br>
-                    <p>Seleccione su tipo de pedido</p>
-                    <input type="radio" name="Locales" id="Delivery"><label for="Locales">Delivery</label>
-                    <input type="radio" name="Locales" id="TakeAway"> <label for="Locales">Take Away</label>
-                    <br>
-                    <br>
-                    <br>
-                    <label for="Local">Local</label>
-                    <select name="Local"placeholder="Seleccione el local" id=""> 
-                    <option value="Local">3 y 52</option>
-                    <option value="Local">City Bell</option>
-                    </select>
-                    <br>
-                    <br>
-                    <label for="Pago">Metodo De Pago</label>
-                    <select name="Pago"placeholder="Seleccione el Metodo de Pago" id=""> 
-                    <option value="Local">MercadoPago</option>
-                    <option value="Local">Efectivo</option>
-                    </select>
-                    <br>
-                    <br>
-                    <p>-No olvide abonar con cambio $$$$</p>
-                    <input placeholder="ingrese su pedido" type="text">
-                    </fieldset>
+    <section class="cont-ped">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.7286677144702!2d-57.944793700000005!3d-34.9132581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e63973c2c563%3A0x83f196bb20bf713f!2sCasa%20Otilia%20(Otilia%20Burgers)!5e0!3m2!1ses-419!2sar!4v1655878315120!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form-cont">
+            <h3 class="form-tit"> 🎉Hace tu pedido🎉 </h3>
+            <form action="" class="form-ped">
+                <input class="box item1" type="text" placeholder="Apellido y Nombre" autocomplete="off">
+                <select name="" id="" class="box item2">
+                    <option value="">Zona</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+                <input type="tel" class="box item3" placeholder="Telefono" autocomplete="off">
+                <select name="" id="" class="box item4">
+                    <option value="">Metodo de pago</option>
+                    <option value="">Efectivo</option>
+                    <option value="">MercadoPago</option>
+                    <input type="email" class="box item5" placeholder="Correo">
+                    <textarea name="" id="" class="box item6" cols="30" rows="10"></textarea>
+                    <input type="submit" class="submit-form" value="Enviar">
+                </select>
             </form>
         </div>
-        <div class="mapa">
-            <h2>Indicanos tu direccion en el mapa</h2><p>(aun no funcional)</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.7286677144702!2d-57.944793700000005!3d-34.9132581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e63973c2c563%3A0x83f196bb20bf713f!2sCasa%20Otilia%20(Otilia%20Burgers)!5e0!3m2!1ses-419!2sar!4v1655878315120!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p>para ingresar desde teclado</p>
-            <textarea style="width: 1030px; height: 78px;" placeholder="escribanos su direccion, y detalle su zona de entrega"></textarea>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar">
-        </div>
-    </main>
+    </section>
     <footer>
         <img src="../assets/imgs/EMBLO_BURGERS.png" alt="" class="logo">
         <div class="cont_soc">
