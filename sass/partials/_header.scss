@@ -5,21 +5,31 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    .logo{
-        display: flex;
-        align-items: center;
-        color: $primary;
-    }
-    .logo img{
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: $primary;
+    & img{
         height: 50px;
         margin-right: 10px;
     }
-    nav a{
-        font-weight: 600;
-        padding-right: 10px;
-        color: $primary;
-    }
-    nav a:hover{
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: $primary;
+    & :hover{
         color: white;
+    }
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
     }
 }
