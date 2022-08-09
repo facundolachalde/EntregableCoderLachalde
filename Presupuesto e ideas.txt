@@ -1,0 +1,51 @@
+Presupuesto:
+
+*Objetivo: Pagina web de 4 pestañas + index, tematica local de hamburguesas con secciones "Nosotros"  "Menu" "Inicio" "Contacto" "Pedidos", en cada una de ellas colocar una barra de navegacion para viajar entre todas y lo mismo con el footer, que contenga links a instagram, o distintos contactos.
+--------------------------------------------------------------------------
+-Lenguajes, extensiones, herramientas a aplicar: 
+*html5 + css
+ 
+*boostrap + sus scripts de java
+
+*sass.
+-----------------------------------------------------------------------
+-Fases: 
+tiempo de trabajo 4 semanas
+
+S1:*Borrador: luego de haberme comunicado con el cliente para plasmar ideas, creo un borrador de figma, en su defecto PS o algun editor de imagen.
+se muestra al cliente, se ultiman detalles y de ahi comenzamos.
+
+S2:*Maquetado estructural: Creo las primeras secciones, les armo la maqueta base al inicio y a las restantes pestañas, sin imagenes ni funcionalidades. 
+
+S3:*Estilizado: Agregamos estilos, funcionalidades, detalles para darle ya una cara mas cercana al tipo de pagina final que buscamos lograr, se charla con el cliente.
+
+S4:*Ultimos detalles Pre-subida: se aplica el SEO se realizan las ultimas modificaciones agusto del cliente
+*Fase de Prueba:se testea como funciona con la subida al servidor, se pulen ciertos detalles que resten hipoteticamente
+
+*Subida al servidor
+-----------------------------------------------------------------------
+Servicios adicionales($):
+-Mantenimiento: Mensual.
+-Actualizaciones a pedido.
+------------------------------------------------------------------------
+-Alojamiento: netlify (hipoteticamente $/mensual)
+----------------------------------------------------
+formas de pago: Paypal, CVU transferencia.
+----------------------------------------------------
+Precio Final: 
+ Excluyendo los servicios adicionales y la mantencion mensual
+dedicandole un trabajo de 4hs semanales, seria un total de 16hs, considero que mi laburo/hora programador actual seria aproximadamente algo de 300 AR$. 
+4800$ mi trabajo.
+1000$ mensual la mantencion.
+------------------------------------------------
+total : 5800$ Primer pago
+1000$/mensual por mantenimiento
+
+
+
+
+
+
+
+
+ 
