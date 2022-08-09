@@ -1,6 +1,9 @@
 .container{
     width: 100%;
     background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     & .titulo{
         width: 100%;
         display: flex;
@@ -69,11 +72,9 @@
 }
 
 .img-section{
-    width: 800px;
-    margin:auto auto auto auto;
+    // width: 800px;
     justify-content: center;
     & img{
-        width: 85%;
         align-self: center;
     }
 }
@@ -83,12 +84,12 @@
         text-align: center;
     }
 } 
-@media screen and (max-width:900px) {
-    .img-section{
-        width: 400px;
-        margin:auto auto auto auto;
-        & img{
-            width: 85%;
-        }
-    }
-}
+// @media screen and (max-width:900px) {
+//     .img-section{
+//         width: 400px;
+//         margin:auto auto auto auto;
+//         & img{
+//             width: 85%;
+//         }
+//     }
+// }
